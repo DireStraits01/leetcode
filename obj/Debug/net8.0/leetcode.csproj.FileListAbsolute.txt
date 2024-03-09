@@ -1,0 +1,14 @@
+/Users/timurgamargaev/Desktop/leetcode/leetcode/bin/Debug/net8.0/leetcode
+/Users/timurgamargaev/Desktop/leetcode/leetcode/bin/Debug/net8.0/leetcode.deps.json
+/Users/timurgamargaev/Desktop/leetcode/leetcode/bin/Debug/net8.0/leetcode.runtimeconfig.json
+/Users/timurgamargaev/Desktop/leetcode/leetcode/bin/Debug/net8.0/leetcode.dll
+/Users/timurgamargaev/Desktop/leetcode/leetcode/bin/Debug/net8.0/leetcode.pdb
+/Users/timurgamargaev/Desktop/leetcode/leetcode/obj/Debug/net8.0/leetcode.GeneratedMSBuildEditorConfig.editorconfig
+/Users/timurgamargaev/Desktop/leetcode/leetcode/obj/Debug/net8.0/leetcode.AssemblyInfoInputs.cache
+/Users/timurgamargaev/Desktop/leetcode/leetcode/obj/Debug/net8.0/leetcode.AssemblyInfo.cs
+/Users/timurgamargaev/Desktop/leetcode/leetcode/obj/Debug/net8.0/leetcode.csproj.CoreCompileInputs.cache
+/Users/timurgamargaev/Desktop/leetcode/leetcode/obj/Debug/net8.0/leetcode.dll
+/Users/timurgamargaev/Desktop/leetcode/leetcode/obj/Debug/net8.0/refint/leetcode.dll
+/Users/timurgamargaev/Desktop/leetcode/leetcode/obj/Debug/net8.0/leetcode.pdb
+/Users/timurgamargaev/Desktop/leetcode/leetcode/obj/Debug/net8.0/leetcode.genruntimeconfig.cache
+/Users/timurgamargaev/Desktop/leetcode/leetcode/obj/Debug/net8.0/ref/leetcode.dll
