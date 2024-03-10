@@ -12,3 +12,4 @@
 /Users/timurgamargaev/Desktop/leetcode/leetcode/obj/Debug/net8.0/leetcode.pdb
 /Users/timurgamargaev/Desktop/leetcode/leetcode/obj/Debug/net8.0/leetcode.genruntimeconfig.cache
 /Users/timurgamargaev/Desktop/leetcode/leetcode/obj/Debug/net8.0/ref/leetcode.dll
+/Users/timurgamargaev/Desktop/leetcode/leetcode/obj/Debug/net8.0/leetcode.sourcelink.json
