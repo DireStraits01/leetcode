@@ -18,10 +18,7 @@ namespace leetcode.tasks
                     k++;
                 }
             }
-            System.Console.WriteLine($"k - {k}");
-            foreach (var n in nums){
-                System.Console.WriteLine($"{n}");
-            }
+        
         }
     }
 }
