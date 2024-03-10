@@ -7,7 +7,7 @@ namespace leetcode.tasks;
 internal class Program
 {
    static void Main(){
-    var start = new SingleNumber();
-    start.Numbers();
+    var num = new RemoveElement();
+    num.Action();
    }
 }
