@@ -7,7 +7,7 @@ namespace leetcode.tasks
 {
     public class RemoveElement
     {
-        int[] nums = [3,2,,3];
+        int[] nums = [3,2,3];
         int val = 2;
         int k = 0;
         public void Action(){
