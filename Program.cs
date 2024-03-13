@@ -7,7 +7,7 @@ namespace leetcode.tasks;
 internal class Program
 {
    static void Main(){
-   var el = new RemoveElement();
-   el.Action();
+       var target = new TargetValue();
+       target.Action();
    }
 }
