@@ -7,7 +7,7 @@ namespace leetcode.tasks;
 internal class Program
 {
    static void Main(){
-       var target = new TargetValue();
+       var target = new Climbing();
        target.Action();
    }
 }
