@@ -7,19 +7,15 @@ namespace leetcode.tasks
 {
     public class RekArray
     {
-        int [] numb = [1,3,4,5,3,5];
-         int number = 561;
-         int sum = 0;
-        public void Action(int i){
-        char[] numberArray = number.ToString().ToCharArray();
-        if(i > numberArray.Length -1) {
-            System.Console.WriteLine($"sum of numbers: {sum}");
-            return;
-        }
-        int num = (int)numberArray[i];
-        sum +=  num - '0';
-          i++;
-          Action(i);
+     
+       
+        public int Action(int[] array,int i){
+    
+            if (i > array.Length-1) return 0;
+            int result = array[i] + Action(array, i+1);
+            System.Console.WriteLine(result);
+            return result;
+
          
         }
     }
