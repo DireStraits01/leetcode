@@ -28,7 +28,7 @@ namespace leetcode.tasks
                     System.Console.WriteLine("error");
                 }
             }
-            System.Console.WriteLine("true");
+            System.Console.WriteLine();
         }
     }
 }
