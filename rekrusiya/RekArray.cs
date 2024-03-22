@@ -15,8 +15,6 @@ namespace leetcode.tasks
             int result = array[i] + Action(array, i+1);
             System.Console.WriteLine(result);
             return result;
-
-         
         }
     }
 }
