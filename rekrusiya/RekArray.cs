@@ -9,7 +9,7 @@ namespace leetcode.tasks
     {
      
        
-        public int Action(int[] array,int i){
+        public int Action(int[] array,int i=0){
     
             if (i > array.Length-1) return 0;
             int result = array[i] + Action(array, i+1);

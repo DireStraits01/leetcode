@@ -6,9 +6,17 @@ using System.Security.Cryptography;
 namespace leetcode.tasks;
 internal class Program
 {
-   static void Main(){
-       var target = new Factorial();
-       target.Action(5);
+   static async Task Main(){
+         Player player = new Player();
+         player.AchievmentUnlocked += OnAchievmentUnlocked;
+         await player.AddPoints(30);
+         await player.AddPoints(40);
+         await player.AddPoints(45);
+
+         static void OnAchievmentUnlocked()
+         {
+            System.Console.WriteLine($"COngratulation! unclocked!! ");
+         }
        
    }
 }
