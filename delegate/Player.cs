@@ -9,7 +9,8 @@ namespace leetcode.tasks
     public class Player
     {
         public int Points {get; private set;}
-        public event Action? AchievmentUnlocked;
+        public delegate void AchievmentUnlockedHandler(int points);
+        public event AchievmentUnlockedHandler? AchievmentUnlocked;
 
         public async Task AddPoints(int points)
         {
@@ -19,7 +20,7 @@ namespace leetcode.tasks
 
             if (Points >= 100)
             {
-                AchievmentUnlocked.Invoke();
+                AchievmentUnlocked.Invoke(Points);
             }
         }
     }
