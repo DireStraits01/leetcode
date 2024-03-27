@@ -6,15 +6,22 @@ using System.Security.Cryptography;
 namespace leetcode.tasks;
 internal class Program
 {
-   static async Task Main(){
-      StockExchangeMonitor stockMonitor = new StockExchangeMonitor();
-      stockMonitor.PriceChangeHandler = ShowPrice;
-      stockMonitor.Start();
-       
-   }
+   static void Main(){
 
-   public static void ShowPrice(int price)
-   {
-      System.Console.WriteLine($"New price{price}");
+      List<Task> toDoList = new List<Task>();
+      Task task = new Task();
+       System.Console.WriteLine(
+         $"in your list {toDoList.Count}\nFor add new task enter E"
+       );
+       ConsoleKeyInfo orderInput =Console.ReadKey();
+       if (orderInput.KeyChar.ToString() == "E"){
+         System.Console.WriteLine("\nAdd new task for task list: Title");
+         string taskTitle = Console.ReadLine();
+         task.Title = taskTitle;
+         foreach(var t in toDoList){
+              System.Console.WriteLine(t.Title);
+         }
+       }
+       System.Console.WriteLine(orderInput.KeyChar);
    }
 }
